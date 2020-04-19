@@ -7,7 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PieChartComponent implements OnInit {
 
+  
+
   constructor() { }
+
+  pieChartData: number[] =[12, 23, 45, 20];
+  pieChartLabels: string[] = ["ABC Logistics", "Main Stree Bakery", "John", "Orange Consulting"];
+  colors: any[] = [{
+    backgroundColor: ['#2654c', '#ff6b6b', '#ffd166', 'violet']
+    }
+  ];
+  pieChartType = 'pie';
+
 
   ngOnInit() {
   }
