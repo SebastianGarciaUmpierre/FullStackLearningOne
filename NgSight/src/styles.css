@@ -23,9 +23,9 @@ a:hover {
 }
 
 .shadow {
-    box-shadow: 0 8px 12px rgba(0,0,0,0 .2) 0 5px 6px rgba(0,0,0,0 .2);
+    box-shadow:   11px 11px 22px #0b0e10, 
+    -7px -7px 22px #2d3640;
 }
-
 .section-container {
     padding: 30px;
 }

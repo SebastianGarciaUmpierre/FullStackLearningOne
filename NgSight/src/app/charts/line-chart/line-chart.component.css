@@ -1,0 +1,6 @@
+.chart {
+    height: 100%;
+}
+.chartjs-render-monitor {
+    height: 100% !important;
+}
